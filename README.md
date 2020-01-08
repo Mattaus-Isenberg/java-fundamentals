@@ -12,7 +12,7 @@ flipNHeads(); - flips a coin intil heads reach the number of times required in t
 clock(); - continuosly updates time in println statement until stopped.
 
 # java-Basics Library
-[Java Basics](7src)
+[Java Basics](/basiclibrary/src/main/java/basiclibrary/Library.java)
 ## Files
 
 
