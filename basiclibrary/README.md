@@ -1,6 +1,8 @@
 # java-Basics Library
 
 ## Files
+
+
 └── basiclibrary
 
     └─ src
@@ -16,7 +18,9 @@
             └─java / basiclibrary
             
                 └─LibraryTest.java
+                
 README.md
+
 
 ## Methods
 roll(); <- Rolls a six sided dice N number of times reurning an array with the results of each roll.
