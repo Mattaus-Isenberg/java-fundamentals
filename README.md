@@ -1,6 +1,7 @@
 # java-fundamentals
 
 ## Files
+[Basics](/basics/Main.java)
 /basics/Main.class
 /basics/Main.java
 
