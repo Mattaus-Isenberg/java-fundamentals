@@ -47,3 +47,7 @@ average(); <- Adds all values of an array and returns the average of their total
 
 arrayOfArrays(); <- Iterates through and multi-dimensional array and its arrays and returns the array with the lowest average.
 
+weatherAnalysis(); <- Takes a multi dimensional array representing a month, containing weeks containing daily temperatures, returns the highest, lowest and temperatures not found.
+
+tally(); <- Takes an array list as an argument with the name of contenders representing votes, returns a string with the contender with the most votes. 
+
