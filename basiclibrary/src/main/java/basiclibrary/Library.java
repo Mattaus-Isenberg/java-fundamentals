@@ -3,6 +3,10 @@
  */
 package basiclibrary;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+
 public class Library {
     public boolean someLibraryMethod() {
         return true;
@@ -32,12 +36,12 @@ public class Library {
         return false;
     }
 
-    public static int average(int[] array){
-        int accumulator = 0;
+    public static float average(int[] array){
+        float accumulator = 0;
         for(int value : array){
             accumulator += value;
         }
-        return  accumulator / array.length;
+        return  (float)accumulator / array.length;
     }
 
     public static int[] arrayOfArrays(int[][] arrays){
@@ -61,4 +65,58 @@ public class Library {
         return arrays[determinant];
     }
 
+    public static String weatherAnalysis(int[][] month){
+        HashSet<Integer> tempSet = new HashSet<>();
+
+        int minTemp = 200;
+        int maxTemp = -200;
+        String response = "";
+
+        for (int[] week : month){
+            for (int day : week) {
+                if (day > maxTemp) {
+                    maxTemp = day;
+                }else if (day < minTemp){
+                    minTemp = day;
+                }
+                if(!tempSet.contains(day)){
+                    tempSet.add(day);
+                }
+            }
         }
+
+        response += ("High: " + maxTemp + "\n");
+        response += ("Low: " + minTemp + "\n");
+
+        for (int i = minTemp; i <= maxTemp; i++) {
+            if (!tempSet.contains(i)) {
+                response += ("Never saw temperature: " + i + "\n");
+            }
+        }
+        return response;
+    }
+
+    public static String tally(ArrayList<String> votes){
+        HashMap<String, Integer> ballot = new HashMap<>();
+        String winner = "";
+        int highestVoteCount = 0;
+
+        for(String contender : votes){
+            if(!ballot.containsKey(contender)){
+                ballot.put(contender, 1);
+            }else{
+                ballot.put(contender, ballot.get(contender) + 1);
+            }
+        }
+        for(String contender : ballot.keySet()){
+            if(ballot.get(contender) > highestVoteCount){
+                highestVoteCount = ballot.get(contender);
+                winner = contender;
+
+            }
+        }
+        return winner + " received the most votes!";
+    }
+
+
+}
