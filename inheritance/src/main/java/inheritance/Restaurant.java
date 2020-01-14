@@ -4,7 +4,8 @@ package inheritance;
 import java.util.LinkedList;
 
 
-public class Restaurant {
+public class Restaurant
+{
 
     private String name;
     private int price;
@@ -17,7 +18,8 @@ public class Restaurant {
         private String author;
         private int stars;
 
-        public Review(String body, String author, int stars) {
+        public Review(String body, String author, int stars)
+        {
             this.body = body;
             this.author = author;
             this.stars = stars;
@@ -26,7 +28,8 @@ public class Restaurant {
         public String toString()
         {
             String returnString = "";
-            for(int i = 0; i < this.stars; i++) {
+            for(int i = 0; i < this.stars; i++)
+            {
                 returnString += "*";
             }
 
@@ -34,7 +37,8 @@ public class Restaurant {
         }
     }
 
-    public Restaurant(String name, int price) {
+    public Restaurant(String name, int price)
+    {
         this.name = name;
         this.price = price;
         this.stars = 0;
@@ -56,7 +60,8 @@ public class Restaurant {
     public String toString()
     {
         String reviews = "";
-        for(Review review : linked_Reviews) {
+        for(Review review : linked_Reviews)
+        {
             reviews += review.toString();
         }
         return name + ": Price:" + price + ", Stars:" + stars + "\n" + "Reviews: " + reviews;
