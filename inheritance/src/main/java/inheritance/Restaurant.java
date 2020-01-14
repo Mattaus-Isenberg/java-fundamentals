@@ -1,8 +1,6 @@
 
 package inheritance;
-
 import java.util.LinkedList;
-
 
 public class Restaurant
 {
