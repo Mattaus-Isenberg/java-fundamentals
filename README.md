@@ -58,7 +58,7 @@ Implementation of inheritance through a main SuperStore super class and child su
 [Inheritance](inheritance/src/main/java/inheritance)
 
 ## File Structure
-.
+``.
 ├── build
 
 │   ├── classes
@@ -91,6 +91,7 @@ Implementation of inheritance through a main SuperStore super class and child su
 
 │   │               └── TheaterTest.class
 
+``
 
 ## Methods
 
