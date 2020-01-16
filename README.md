@@ -60,76 +60,147 @@ Implementation of inheritance through a main SuperStore super class and child su
 ## File Structure
 .
 ├── build
+
 │   ├── classes
+
 │   │   └── java
+
 │   │       ├── main
+
 │   │       │   └── inheritance
+
 │   │       │       ├── Restaurant.class
+
 │   │       │       ├── Review.class
+
 │   │       │       ├── Shop.class
+
 │   │       │       ├── SuperStore.class
+
 │   │       │       └── Theater.class
+
 │   │       └── test
+
 │   │           └── inheritance
+
 │   │               ├── RestaurantTest.class
+
 │   │               ├── ReviewTest.class
+
 │   │               ├── ShopTest.class
+
 │   │               └── TheaterTest.class
+
 │   ├── generated
+
 │   │   └── sources
+
 │   │       └── annotationProcessor
+
 │   │           └── java
+
 │   │               ├── main
+
 │   │               └── test
+
 │   ├── reports
+
 │   │   └── tests
+
 │   │       └── test
+
 │   │           ├── classes
+
 │   │           │   └── inheritance.ShopTest.html
+
 │   │           ├── css
+
 │   │           │   ├── base-style.css
+
 │   │           │   └── style.css
+
 │   │           ├── index.html
+
 │   │           ├── js
+
 │   │           │   └── report.js
+
 │   │           └── packages
+
 │   │               └── inheritance.html
+
 │   ├── test-results
+
 │   │   └── test
+
 │   │       ├── TEST-inheritance.ShopTest.xml
+
 │   │       └── binary
+
 │   │           ├── output.bin
+
 │   │           ├── output.bin.idx
+
 │   │           └── results.bin
+
 │   └── tmp
+
 │       ├── compileJava
+
 │       └── compileTestJava
+
 ├── build.gradle
+
 ├── gradle
+
 │   └── wrapper
+
 │       ├── gradle-wrapper.jar
+
 │       └── gradle-wrapper.properties
+
 ├── gradlew
+
 ├── gradlew.bat
+
 ├── settings.gradle
+
 └── src
+
     ├── main
+    
     │   ├── java
+    
     │   │   └── inheritance
+    
     │   │       ├── Restaurant.java
+    
     │   │       ├── Review.java
+    
     │   │       ├── Shop.java
+    
     │   │       ├── SuperStore.java
+    
     │   │       └── Theater.java
+    
     │   └── resources
+    
     └── test
+    
         ├── java
+        
         │   └── inheritance
+        
         │       ├── RestaurantTest.java
+        
         │       ├── ReviewTest.java
+        
         │       ├── ShopTest.java
+        
         │       └── TheaterTest.java
+        
         └── resources
+        
         
 ## Methods
 
