@@ -59,11 +59,9 @@ Implementation of inheritance through a main SuperStore super class and child su
 
 ## File Structure
 ``.
-├── build
 
-│   ├── classes
 
-│   │   └── java
+      └── java
 
           ├── main
 
