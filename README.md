@@ -65,31 +65,31 @@ Implementation of inheritance through a main SuperStore super class and child su
 
 │   │   └── java
 
-│   │       ├── main
+          ├── main
 
-│   │       │   └── inheritance
+          │   └── inheritance
 
-│   │       │       ├── Restaurant.class
+          │       ├── Restaurant.class
 
-│   │       │       ├── Review.class
+          │       ├── Review.class
 
-│   │       │       ├── Shop.class
+          │       ├── Shop.class
 
-│   │       │       ├── SuperStore.class
+          │       ├── SuperStore.class
 
-│   │       │       └── Theater.class
+          │       └── Theater.class
 
-│   │       └── test
+          └── test
 
-│   │           └── inheritance
+              └── inheritance
 
-│   │               ├── RestaurantTest.class
+                  ├── RestaurantTest.class
 
-│   │               ├── ReviewTest.class
+                  ├── ReviewTest.class
 
-│   │               ├── ShopTest.class
+                  ├── ShopTest.class
 
-│   │               └── TheaterTest.class
+                  └── TheaterTest.class
 
 ``
 
