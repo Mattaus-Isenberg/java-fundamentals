@@ -13,6 +13,18 @@ README.md
 pluralize(); - accepts a word and a number and returns a string with the word pluralized with an “s” if the number is zero, or greater than one.
 flipNHeads(); - flips a coin intil heads reach the number of times required in the argument.
 clock(); - continuosly updates time in println statement until stopped.
+ 
+# Linter Application 
+
+## Code 
+[Linter](linter/src/main/java/linter/App.java)
+
+## Method
+
+public static String lintJavaScriptFile(Path filePath) <- Takes a file path and scans it for predetermined factors to report if found
+
+## README
+[README for Linter](linter)
 
 # java-Basics Library
 [Java Basics](/basiclibrary/src/main/java/basiclibrary/Library.java)
