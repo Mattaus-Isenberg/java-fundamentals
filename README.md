@@ -24,7 +24,7 @@ clock(); - continuosly updates time in println statement until stopped.
 public static String lintJavaScriptFile(Path filePath) <- Takes a file path and scans it for predetermined factors to report if found
 
 ## README
-[README for Linter](linter)
+[README for Linter](linter/linterREADME.md)
 
 # java-Basics Library
 [Java Basics](/basiclibrary/src/main/java/basiclibrary/Library.java)
